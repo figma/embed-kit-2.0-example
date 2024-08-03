@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Example website with prototype controls</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="flex-container">
+      <iframe
+        id="embed-frame"
+        src="https://embed.staging.figma.com/proto/lfGdScMePxSpiX9jkqDALE/Prototype-examples-for-embed?node-id=5019-210&embed-host=matty-localhost&client-id=ihe7IUq8jrwlAaTchsp61X"
+        allowfullscreen
+      ></iframe>
+      <div id="panel">
+        <div id="controls">
+          <div class="panel-header">Prototype controls:</div>
+          <div id="buttons">
+            <button id="prev" disabled>&larr;</button>
+            <button id="restart" disabled>Restart</button>
+            <button id="next" disabled>&rarr;</button>
+          </div>
+        </div>
+        <div id="event-viewer">
+          <div class="panel-header">Events:</div>
+          <div id="events"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

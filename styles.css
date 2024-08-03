@@ -1,0 +1,48 @@
+html {
+    font-family: Inter, sans-serif;
+    background-color: #f4e4ff;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#embed-frame, #panel {
+    width: 338px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 0.25em;
+}
+
+#panel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+#panel .panel-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 0.25em;
+}
+
+#buttons {
+    padding: 0.25em;
+}
+
+#event-viewer {
+    overflow: hidden;
+}
+
+#events {
+    height: 100%;
+    overflow: auto;
+    padding-left: 0.25em;
+}
