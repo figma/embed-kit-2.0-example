@@ -6,9 +6,9 @@ For learning purposes, the example site is built with a simple combination of HT
 
 The example site includes three files:
 
-* [index.html](#index-html)
-* [script.js](#script-js)
-* [styles.css](#styles-css)
+* [index.html](#indexhtml)
+* [script.js](#scriptjs)
+* [styles.css](#stylescss)
 
 ## index.html
 
