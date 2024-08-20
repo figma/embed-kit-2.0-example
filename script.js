@@ -8,7 +8,7 @@ const iframe = document.querySelector("#embed-frame");
  * The target origin for postMessage.
  * @type {string}
  */
-const figmaOrigin = "https://staging.figma.com";
+const figmaOrigin = "https://www.figma.com";
 
 /**
  * Sends a message to the iframe to navigate to the next page in the prototype.
@@ -86,13 +86,13 @@ window.addEventListener("message", (event) => {
     if (event.data.type === "PRESENTED_NODE_CHANGED") {
       const nodeId = event.data.data.presentedNodeId;
       
-      if (nodeId === "5019:210") {
+      if (nodeId === "5:3") {
         prevButton.setAttribute("disabled", "");
       } else if (prevButton.hasAttribute("disabled")) {
         prevButton.removeAttribute("disabled");
       }
 
-      if (nodeId === "5019:72") {
+      if (nodeId === "3:2001") {
         nextButton.setAttribute("disabled", "");
       } else if (nextButton.hasAttribute("disabled")) {
         nextButton.removeAttribute("disabled");
