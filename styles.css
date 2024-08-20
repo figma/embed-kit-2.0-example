@@ -14,7 +14,7 @@ html {
 
 #embed-frame, #panel {
     width: 338px;
-    height: 600px;
+    height: 560px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     background-color: white;
