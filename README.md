@@ -2,7 +2,7 @@
 
 An example site that has an embedded Figma prototype and uses the Embed API to send messages and handle events.
 
-View this repository's version of the site [here](https://laughing-adventure-egl2663.pages.github.io/).
+View this repository's version of the site [here](https://fictional-disco-6k97273.pages.github.io/).
 
 For learning purposes, the example site is built with a simple combination of HTML, JavaScript, and CSS. Generally, for production, you'll want to implement your embed tooling with consideration for things such as reusable components and type safety.
 
