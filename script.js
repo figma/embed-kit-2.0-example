@@ -74,8 +74,10 @@ prevButton.addEventListener("click", previousPage);
  * @param {MessageEvent} event - The message event from the iframe.
  */
 window.addEventListener("message", (event) => {
+  const prototypeEvents = ["MOUSE_PRESS_OR_RELEASE", "PRESENTED_NODE_CHANGED", "INITIAL_LOAD", "NEW_STATE", "REQUEST_CLOSE"];
+
   // Ensure the message is coming from the expected iframe origin
-  if (event.origin === figmaOrigin) {
+  if (event.origin === figmaOrigin && prototypeEvents.includes(event.data.type)) {
     outputEvent(event);
 
     if (event.data.type === "INITIAL_LOAD") {
